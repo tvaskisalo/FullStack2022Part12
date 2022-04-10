@@ -21,7 +21,10 @@ if (!REDIS_URL) {
   setAsync = promisify(client.set).bind(client)    
 }
 
+
+
 module.exports = {
   getAsync,
   setAsync
 }
+

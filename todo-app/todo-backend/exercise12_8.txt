@@ -1,0 +1,15 @@
+Script started on 2022-03-25 19:37:18+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;tvaskisalo@pop-os: ~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[01;32mtvaskisalo@pop-os[00m:[01;34m~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[00m$  sudo docker-compose -f docker-compose.dev.yml up -d
+[?2004l[sudo] password for tvaskisalo: 
+Starting todo-backend_mongo_1 ... 
+[1A[2KStarting todo-backend_mongo_1 ... [32mdone[0m[1B[?2004h]0;tvaskisalo@pop-os: ~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[01;32mtvaskisalo@pop-os[00m:[01;34m~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[00m$  sudo docker container ls
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+0e6207720e8d   mongo     "docker-entrypoint.s…"   10 minutes ago   Up 18 seconds   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend_mongo_1
+[?2004h]0;tvaskisalo@pop-os: ~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[01;32mtvaskisalo@pop-os[00m:[01;34m~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[00m$  [K[A]0;tvaskisalo@pop-os: ~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[01;32mtvaskisalo@pop-os[00m:[01;34m~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[00m$ [K]0;tvaskisalo@pop-os: ~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[01;32mtvaskisalo@pop-os[00m:[01;34m~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[00m$ sudo docker [K-.[Kdom[K[K[Kcompose down
+[?2004l[33mWARNING[0m: Found orphan containers (todo-backend_mongo_1) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing network todo-backend_default
+[31mERROR[0m: error while removing network: network todo-backend_default id 7426af7a1e93ae22cd133a47df0c97df3462eec24dbbabcbdc65a3c58b2512ce has active endpoints
+[?2004h]0;tvaskisalo@pop-os: ~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[01;32mtvaskisalo@pop-os[00m:[01;34m~/Documents/GitHub/FullStack2022Part12/todo-app/todo-backend[00m$ exit
+[?2004lexit
+
+Script done on 2022-03-25 19:39:10+02:00 [COMMAND_EXIT_CODE="1"]
